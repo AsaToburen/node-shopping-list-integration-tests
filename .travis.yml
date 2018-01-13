@@ -1,2 +1,11 @@
 language: node_js
 node_js: node
+deploy:
+  app: mighty-plateau-87793
+  provider: heroku
+  api_key:
+    secure: XxebwhPDrjAJaive/J0vEybTzC5+1Ukvbby8XKiQbPE8BKJbzOsrCU536bVLMQpftlIDpx+3S3ARfW6jsnc/6BXqM0UD+SUvPEvQovwVZVKk/7aKSNF9cvlJ/6rHT+gIkQO/rZTCyLKe8A0ECiKRTKAwuU291ptbLUU6haogzk/tEMFhrZvthmBqZwCFVLsJrS6RxKE2kHZTHQ2zoH+3JodkPRHxi5wQ6okZEXQNhovXVufcLYTeyZI6Ct338DicVW1geQ8TIAfaC/O4abA6mQkcn5GZgI+W9ubhM+Kxnifh+faXTZiqZHh1QAh7MDqvuKnIcAuiEsbEyQWoubQ2C/szhblhvIOg2TAlpUbxAng4QE1jnHCzyjSpoQ+SNlauC4tJCTZxbEUI7DoivarHuyccRSixIBFTpq/nP2ngU/EwLwhdFtrBFkfD7GEpCfQNzjaizjFhbpfAEfq9Q+wi3Ng8TZjwM4ETosd4DIWs1qzCO/NVMPDFQIKSrFNAZbBRakkm2zdw4M/2XvYQzhLFssbOYOAJH5Wfl8hDP6Ptdk3jy+F4GtKX2Z6vPiykvNoTPmuaXzjZ6ZLMvF4WounqjE/HL2LRZcmya7yP1zcVVXYb3VNeZ9O3CazzC8fTqTzPu/xvCNd+0exQM8YZkwDr17AxA88I2gXE5HNEppl8YeY=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: AsaToburen/node-shopping-list-integration-tests
+    branch: test-for-recipes
